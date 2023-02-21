@@ -1,4 +1,8 @@
-﻿#include "console.h"
+﻿#include <stdio.h>
+#include <stdbool.h>
+#include <consoleapi.h>
+#include <conio.h>
+#include "console.h"
 
 int keycode1 = 0;
 int keycode2 = 0;

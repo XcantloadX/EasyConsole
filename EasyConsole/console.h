@@ -1,10 +1,7 @@
 #pragma once
+#include <stdbool.h>
 
 //-----------头文件-----------
-#include <stdio.h>
-#include <stdbool.h>
-#include <consoleapi.h>
-#include <conio.h>
 
 //-----------枚举-----------
 
