@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="console.c" />
+    <ClCompile Include="example.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="console.h" />
