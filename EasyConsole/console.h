@@ -26,10 +26,50 @@ typedef enum {
 
 //-----------常量-----------
 //键代码定义
-#define KEY_Q (int)'q'
+
 #define KEY_UP 0x48
 #define KEY_DOWN 0x50
 #define KEY_ENTER 0x1C
+//字母键
+#define KEY_A (int)'a'
+#define KEY_B (int)'b'
+#define KEY_C (int)'c'
+#define KEY_D (int)'d'
+#define KEY_E (int)'e'
+#define KEY_F (int)'f'
+#define KEY_G (int)'g'
+#define KEY_H (int)'h'
+#define KEY_I (int)'i'
+#define KEY_J (int)'j'
+#define KEY_K (int)'k'
+#define KEY_L (int)'l'
+#define KEY_M (int)'m'
+#define KEY_N (int)'n'
+#define KEY_O (int)'o'
+#define KEY_P (int)'p'
+#define KEY_Q (int)'q'
+#define KEY_R (int)'r'
+#define KEY_S (int)'s'
+#define KEY_T (int)'t'
+#define KEY_U (int)'u'
+#define KEY_V (int)'v'
+#define KEY_W (int)'w'
+#define KEY_X (int)'x'
+#define KEY_Y (int)'y'
+#define KEY_Z (int)'z'
+// 功能键
+#define KEY_F1 0x3B
+#define KEY_F2 0x3C
+#define KEY_F3 0x3D
+#define KEY_F4 0x3E
+#define KEY_F5 0x3F
+#define KEY_F6 0x40
+#define KEY_F7 0x41
+#define KEY_F8 0x42
+#define KEY_F9 0x43
+#define KEY_F10 0x44
+#define KEY_F11 0x57
+#define KEY_F12 0x58
 
 //字符定义
 #define BOX_DBL_0

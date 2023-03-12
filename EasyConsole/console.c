@@ -85,10 +85,11 @@ void console_key_end()
 //设置是否显示光标
 void console_set_cursor(bool show)
 {
-	if(show)
-		printf("\e[?25h");
-	else
-		printf("\e[?25l");
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+	CONSOLE_CURSOR_INFO cursorInfo;
+	GetConsoleCursorInfo(hConsole, &cursorInfo);
+	cursorInfo.bVisible = show;
+	SetConsoleCursorInfo(hConsole, &cursorInfo);
 }
 
 //设置线条样式
